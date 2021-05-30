@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00C14A5EACEDE8CF186A7BDA /* Pods_CosmosRatingTutorial_CosmosRatingTutorialUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3DA9344F759832E8786DD5 /* Pods_CosmosRatingTutorial_CosmosRatingTutorialUITests.framework */; };
+		0FE39AF72663F0E800F56300 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0FE39AF62663F0E800F56300 /* SnapKit */; };
 		0FEBB3FB2663EEE500E6B268 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEBB3FA2663EEE500E6B268 /* AppDelegate.swift */; };
 		0FEBB3FD2663EEE500E6B268 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEBB3FC2663EEE500E6B268 /* SceneDelegate.swift */; };
 		0FEBB3FF2663EEE500E6B268 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEBB3FE2663EEE500E6B268 /* ViewController.swift */; };
@@ -15,6 +17,8 @@
 		0FEBB4072663EEE500E6B268 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FEBB4052663EEE500E6B268 /* LaunchScreen.storyboard */; };
 		0FEBB4122663EEE600E6B268 /* CosmosRatingTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEBB4112663EEE600E6B268 /* CosmosRatingTutorialTests.swift */; };
 		0FEBB41D2663EEE600E6B268 /* CosmosRatingTutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEBB41C2663EEE600E6B268 /* CosmosRatingTutorialUITests.swift */; };
+		A8B9DCFECE8CBC7D7F1FADA3 /* Pods_CosmosRatingTutorialTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AE2BC13D2E439A41D7186FD /* Pods_CosmosRatingTutorialTests.framework */; };
+		E34CC59B2A804892EB742A79 /* Pods_CosmosRatingTutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3478237622A08CBB9B4FB69E /* Pods_CosmosRatingTutorial.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,15 @@
 		0FEBB4182663EEE600E6B268 /* CosmosRatingTutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CosmosRatingTutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FEBB41C2663EEE600E6B268 /* CosmosRatingTutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CosmosRatingTutorialUITests.swift; sourceTree = "<group>"; };
 		0FEBB41E2663EEE600E6B268 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2196F2E409403F57C0D9285A /* Pods-CosmosRatingTutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CosmosRatingTutorial.debug.xcconfig"; path = "Target Support Files/Pods-CosmosRatingTutorial/Pods-CosmosRatingTutorial.debug.xcconfig"; sourceTree = "<group>"; };
+		3478237622A08CBB9B4FB69E /* Pods_CosmosRatingTutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CosmosRatingTutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AE2BC13D2E439A41D7186FD /* Pods_CosmosRatingTutorialTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CosmosRatingTutorialTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B4816EDB16B2B5209C47F19 /* Pods-CosmosRatingTutorial-CosmosRatingTutorialUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CosmosRatingTutorial-CosmosRatingTutorialUITests.release.xcconfig"; path = "Target Support Files/Pods-CosmosRatingTutorial-CosmosRatingTutorialUITests/Pods-CosmosRatingTutorial-CosmosRatingTutorialUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8D3DA9344F759832E8786DD5 /* Pods_CosmosRatingTutorial_CosmosRatingTutorialUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CosmosRatingTutorial_CosmosRatingTutorialUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95DDC05F384C19174B2E267C /* Pods-CosmosRatingTutorialTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CosmosRatingTutorialTests.release.xcconfig"; path = "Target Support Files/Pods-CosmosRatingTutorialTests/Pods-CosmosRatingTutorialTests.release.xcconfig"; sourceTree = "<group>"; };
+		C82EE47089CC6ADCFA0040D8 /* Pods-CosmosRatingTutorial-CosmosRatingTutorialUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CosmosRatingTutorial-CosmosRatingTutorialUITests.debug.xcconfig"; path = "Target Support Files/Pods-CosmosRatingTutorial-CosmosRatingTutorialUITests/Pods-CosmosRatingTutorial-CosmosRatingTutorialUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E22C755AAE43D211C6E9EB7C /* Pods-CosmosRatingTutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CosmosRatingTutorial.release.xcconfig"; path = "Target Support Files/Pods-CosmosRatingTutorial/Pods-CosmosRatingTutorial.release.xcconfig"; sourceTree = "<group>"; };
+		EB7B969FA598C1AF75176FC6 /* Pods-CosmosRatingTutorialTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CosmosRatingTutorialTests.debug.xcconfig"; path = "Target Support Files/Pods-CosmosRatingTutorialTests/Pods-CosmosRatingTutorialTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E34CC59B2A804892EB742A79 /* Pods_CosmosRatingTutorial.framework in Frameworks */,
+				0FE39AF72663F0E800F56300 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8B9DCFECE8CBC7D7F1FADA3 /* Pods_CosmosRatingTutorialTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00C14A5EACEDE8CF186A7BDA /* Pods_CosmosRatingTutorial_CosmosRatingTutorialUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02AE13ED77BCB0A562316B2D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2196F2E409403F57C0D9285A /* Pods-CosmosRatingTutorial.debug.xcconfig */,
+				E22C755AAE43D211C6E9EB7C /* Pods-CosmosRatingTutorial.release.xcconfig */,
+				C82EE47089CC6ADCFA0040D8 /* Pods-CosmosRatingTutorial-CosmosRatingTutorialUITests.debug.xcconfig */,
+				7B4816EDB16B2B5209C47F19 /* Pods-CosmosRatingTutorial-CosmosRatingTutorialUITests.release.xcconfig */,
+				EB7B969FA598C1AF75176FC6 /* Pods-CosmosRatingTutorialTests.debug.xcconfig */,
+				95DDC05F384C19174B2E267C /* Pods-CosmosRatingTutorialTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		0FEBB3EE2663EEE500E6B268 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +113,8 @@
 				0FEBB4102663EEE600E6B268 /* CosmosRatingTutorialTests */,
 				0FEBB41B2663EEE600E6B268 /* CosmosRatingTutorialUITests */,
 				0FEBB3F82663EEE500E6B268 /* Products */,
+				02AE13ED77BCB0A562316B2D /* Pods */,
+				1833789556C5B9677E39743B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +160,16 @@
 			path = CosmosRatingTutorialUITests;
 			sourceTree = "<group>";
 		};
+		1833789556C5B9677E39743B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3478237622A08CBB9B4FB69E /* Pods_CosmosRatingTutorial.framework */,
+				8D3DA9344F759832E8786DD5 /* Pods_CosmosRatingTutorial_CosmosRatingTutorialUITests.framework */,
+				3AE2BC13D2E439A41D7186FD /* Pods_CosmosRatingTutorialTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,15 +177,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0FEBB4212663EEE600E6B268 /* Build configuration list for PBXNativeTarget "CosmosRatingTutorial" */;
 			buildPhases = (
+				9F2BE0958A1168E7CB21CD37 /* [CP] Check Pods Manifest.lock */,
 				0FEBB3F32663EEE500E6B268 /* Sources */,
 				0FEBB3F42663EEE500E6B268 /* Frameworks */,
 				0FEBB3F52663EEE500E6B268 /* Resources */,
+				23412C68CCA55E5A35F7B836 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = CosmosRatingTutorial;
+			packageProductDependencies = (
+				0FE39AF62663F0E800F56300 /* SnapKit */,
+			);
 			productName = CosmosRatingTutorial;
 			productReference = 0FEBB3F72663EEE500E6B268 /* CosmosRatingTutorial.app */;
 			productType = "com.apple.product-type.application";
@@ -152,6 +199,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0FEBB4242663EEE600E6B268 /* Build configuration list for PBXNativeTarget "CosmosRatingTutorialTests" */;
 			buildPhases = (
+				9B0923902AB829302F4186EF /* [CP] Check Pods Manifest.lock */,
 				0FEBB4092663EEE600E6B268 /* Sources */,
 				0FEBB40A2663EEE600E6B268 /* Frameworks */,
 				0FEBB40B2663EEE600E6B268 /* Resources */,
@@ -170,9 +218,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0FEBB4272663EEE600E6B268 /* Build configuration list for PBXNativeTarget "CosmosRatingTutorialUITests" */;
 			buildPhases = (
+				42E8A2696E825E3AA8DBC176 /* [CP] Check Pods Manifest.lock */,
 				0FEBB4142663EEE600E6B268 /* Sources */,
 				0FEBB4152663EEE600E6B268 /* Frameworks */,
 				0FEBB4162663EEE600E6B268 /* Resources */,
+				611014C038E44E8C41B8E447 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -215,6 +265,9 @@
 				Base,
 			);
 			mainGroup = 0FEBB3EE2663EEE500E6B268;
+			packageReferences = (
+				0FE39AF52663F0E800F56300 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 0FEBB3F82663EEE500E6B268 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -252,6 +305,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23412C68CCA55E5A35F7B836 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CosmosRatingTutorial/Pods-CosmosRatingTutorial-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CosmosRatingTutorial/Pods-CosmosRatingTutorial-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CosmosRatingTutorial/Pods-CosmosRatingTutorial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42E8A2696E825E3AA8DBC176 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CosmosRatingTutorial-CosmosRatingTutorialUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		611014C038E44E8C41B8E447 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CosmosRatingTutorial-CosmosRatingTutorialUITests/Pods-CosmosRatingTutorial-CosmosRatingTutorialUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CosmosRatingTutorial-CosmosRatingTutorialUITests/Pods-CosmosRatingTutorial-CosmosRatingTutorialUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CosmosRatingTutorial-CosmosRatingTutorialUITests/Pods-CosmosRatingTutorial-CosmosRatingTutorialUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B0923902AB829302F4186EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CosmosRatingTutorialTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F2BE0958A1168E7CB21CD37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CosmosRatingTutorial-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0FEBB3F32663EEE500E6B268 /* Sources */ = {
@@ -433,6 +589,7 @@
 		};
 		0FEBB4222663EEE600E6B268 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2196F2E409403F57C0D9285A /* Pods-CosmosRatingTutorial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +609,7 @@
 		};
 		0FEBB4232663EEE600E6B268 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E22C755AAE43D211C6E9EB7C /* Pods-CosmosRatingTutorial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +629,7 @@
 		};
 		0FEBB4252663EEE600E6B268 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB7B969FA598C1AF75176FC6 /* Pods-CosmosRatingTutorialTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +652,7 @@
 		};
 		0FEBB4262663EEE600E6B268 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95DDC05F384C19174B2E267C /* Pods-CosmosRatingTutorialTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +675,7 @@
 		};
 		0FEBB4282663EEE600E6B268 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C82EE47089CC6ADCFA0040D8 /* Pods-CosmosRatingTutorial-CosmosRatingTutorialUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +696,7 @@
 		};
 		0FEBB4292663EEE600E6B268 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B4816EDB16B2B5209C47F19 /* Pods-CosmosRatingTutorial-CosmosRatingTutorialUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -593,6 +755,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0FE39AF52663F0E800F56300 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0FE39AF62663F0E800F56300 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0FE39AF52663F0E800F56300 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0FEBB3EF2663EEE500E6B268 /* Project object */;
 }
